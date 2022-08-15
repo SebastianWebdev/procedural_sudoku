@@ -14,10 +14,14 @@
         "version": "npm run format && git add -A src",
         "postversion": "git push && git push --tags"
     },
-    "keywords": [],
-    "author": "",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SebastianWebdev/procedural_sudoku.git"
+    },
+    "keywords": ["Sudoku", "Generator", "Procedural", "typescript"],
+    "author": "Sebastian Gołębiowski",
     "license": "ISC",
-    "description": "",
+    "description": "Procedural Sudoku Generators",
     "devDependencies": {
         "@types/jest": "^28.1.7",
         "jest": "^28.1.3",
