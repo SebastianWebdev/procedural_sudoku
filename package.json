@@ -1,6 +1,6 @@
 {
     "name": "better-sudoku",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
     "scripts": {
@@ -18,7 +18,12 @@
         "type": "git",
         "url": "https://github.com/SebastianWebdev/procedural_sudoku.git"
     },
-    "keywords": ["Sudoku", "Generator", "Procedural", "typescript"],
+    "keywords": [
+        "Sudoku",
+        "Generator",
+        "Procedural",
+        "typescript"
+    ],
     "author": "Sebastian Gołębiowski",
     "license": "ISC",
     "description": "Procedural Sudoku Generators",
@@ -35,7 +40,5 @@
     "files": [
         "lib/**/*"
     ],
-    "dependencies": {
-
-    }
+    "dependencies": {}
 }
