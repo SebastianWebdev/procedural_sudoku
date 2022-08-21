@@ -22,7 +22,7 @@
         "Sudoku",
         "Generator",
         "Procedural",
-        "typescript"
+        "typeScript"
     ],
     "author": "Sebastian Gołębiowski",
     "license": "ISC",
