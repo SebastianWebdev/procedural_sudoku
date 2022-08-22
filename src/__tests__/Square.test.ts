@@ -1,4 +1,4 @@
-import { createSquare, createSquaresMap } from '../SmallSquare/small_square';
+import { createSquare, createSquaresMap } from '../SmallSquare';
 const key = '0:0';
 
 describe('SmallSquare', () => {

@@ -1,10 +1,6 @@
-import {
-  SmallSquare,
-  createSquaresMap,
-  Eliminators,
-  SmallSquaresMap,
-  drawNumberForSmallSquare,
-} from '../SmallSquare/small_square';
+import { createSquaresMap, drawNumberForSmallSquare } from '../SmallSquare';
+import { SmallSquare, SmallSquaresMap } from '../types';
+import { Eliminators } from './eliminators';
 
 export function tick(board: SmallSquaresMap, key: string): SmallSquaresMap {
   const { choosenNumber } = drawNumberForSmallSquare(board.get(key) as SmallSquare);

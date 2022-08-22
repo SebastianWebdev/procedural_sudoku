@@ -1,4 +1,4 @@
-import { randomRange, drawRandomElementFromArray, Range, arraysDiff } from '../utils';
+import { randomRange, drawRandomElementFromArray, Range, arraysDiff, areArrayEquals } from '../utils';
 
 describe('Utils', () => {
   const range: Range = { min: 1, max: 10 };
@@ -14,18 +14,6 @@ describe('Utils', () => {
   const arrayC = [2, 3, 4];
   const arrayD: number[] = [];
   const arrayA2: number[] = [];
-
-  const areArrayEquals = (arr1: number[], arr2: number[]): boolean => {
-    if (arr1.length !== arr2.length) return false;
-    let index = 0;
-    for (const el of arr1) {
-      if (arr2[index] !== el) {
-        return false;
-      }
-      index++;
-    }
-    return true;
-  };
 
   const isEqualtoA = (b: number[]) => areArrayEquals(arrayA, b);
   const isEqualToA2 = (b: number[]) => areArrayEquals(arrayA2, b);
